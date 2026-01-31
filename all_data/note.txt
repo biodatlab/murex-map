@@ -1,1 +1,0 @@
-this folder will pull bins files that saved from datamapplot (inline_data = false)
