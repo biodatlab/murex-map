@@ -12,10 +12,11 @@ This project visualizes the evolution and structure of research at Mahidol Unive
 
 ### Methodology
 
-Following the approach from the Illustrated NeurIPS visualization, we:
+Following the approach from the Illustrated NeurIPS visualization blog, we:
+- **Generate LLM Content**: Each paper includes AI-generated summaries and contextualization for easier exploration (e.g. techniques, explain like I'm 5, main findings, ...)
 - **Embed Research Papers**: Generate [semantic embeddings](https://docs.cohere.com/docs/embeddings) of papers using their titles and abstracts
 - **Dimensionality Reduction**: Apply [UMAP](https://github.com/lmcinnes/umap) to project high-dimensional embeddings into 2D space
 - **Clustering**: Identify research clusters using [HDBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.HDBSCAN.html)
 - **Interactive Visualization**: Build an explorable interface using [`datamapplot`](https://datamapplot.readthedocs.io/en/latest/)
-- **LLM Content**: Each paper includes AI-generated summaries and contextualization for easier exploration (e.g. techniques, explain like I'm 5, ...)
 
+<img src="assets/methods.png" alt="MUREX Research Map" width="800">
